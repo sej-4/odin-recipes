@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 500px;
+  background-color: rgb(253, 239, 209);
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.recipes {
+  margin-top: 15px;
+}
+
+.recipes li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+h2 {
+  border-bottom: 1px solid rgb(120, 120, 120);
+  font-size: 20px;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+.description,
+.ingredients,
+.steps {
+  padding-top: 20px;
+}
+
+.ingredients,
+.steps {
+  text-align: left;
+}
+
+.ingredients li,
+.steps li {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.home {
+  display: block;
+  padding: 20px 0;
+}
