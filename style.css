@@ -9,10 +9,22 @@ body {
   background-color: rgb(253, 239, 209);
   text-align: center;
   margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1 {
   margin: 20px;
+}
+
+h2 {
+  border-bottom: 1px solid rgb(120, 120, 120);
+  margin-top: 20px;
+  padding-bottom: 15px;
 }
 
 .recipes {
@@ -22,13 +34,6 @@ h1 {
 .recipes li {
   list-style-type: none;
   margin-bottom: 20px;
-}
-
-h2 {
-  border-bottom: 1px solid rgb(120, 120, 120);
-  font-size: 20px;
-  margin-top: 20px;
-  padding-bottom: 15px;
 }
 
 .description,
